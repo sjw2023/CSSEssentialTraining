@@ -1,3 +1,53 @@
+/* Global*/
 img {
   width: 600px;
+}
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #ece2d0;
+}
+/* example of psudo attribute */
+a:hover {
+  text-decoration: none;
+}
+/* Make contents box in fixed size and remove margin with auto to make middle alingn */
+.content-wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* PROFILE
+-----------------------------------------*/
+header {
+  background-color: rgb(109, 46, 70);
+  color: #fff;
+}
+/* PROJECTS
+-----------------------------------------*/
+.projects {
+  background-color: #d5b9b2;
+}
+/* Making Button style link with padding and border-radius */
+.projects a {
+  color: #d5b9b2;
+  background-color: #807373;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* EDUCATION
+-----------------------------------------*/
+.education {
+  background-color: #a26769;
+}
+/* Contact INFO
+-----------------------------------------*/
+footer {
+  background-color: rgb(109, 46, 70);
+  color: #fff;
 }
